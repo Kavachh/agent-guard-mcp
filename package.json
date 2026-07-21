@@ -1,0 +1,11 @@
+{
+  "name": "agent-guard-mcp-tests",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node test-edge.mjs"
+  },
+  "devDependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  }
+}
