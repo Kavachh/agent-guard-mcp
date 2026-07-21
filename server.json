@@ -1,20 +1,18 @@
 {
-  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-07-09/server.schema.json",
-  "name": "io.github.kavachh/agent-guard-mcp",
-  "description": "Git-aware safe file operations for AI agents: delete anything except git-tracked source code. Safe to auto-approve.",
-  "status": "active",
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-09-29/server.schema.json",
+  "name": "io.github.Kavachh/agent-guard-mcp",
+  "description": "Git-aware safe file ops for AI agents: delete anything except git-tracked source code.",
+  "version": "0.2.0",
   "repository": {
-    "url": "https://github.com/kavachh/agent-guard-mcp",
+    "url": "https://github.com/Kavachh/agent-guard-mcp",
     "source": "github"
-  },
-  "version_detail": {
-    "version": "0.2.0"
   },
   "packages": [
     {
-      "registry_type": "mcpb",
-      "identifier": "https://github.com/kavachh/agent-guard-mcp/releases/download/v0.2.0/agent-guard-mcp_darwin_arm64",
+      "registryType": "mcpb",
+      "identifier": "https://github.com/Kavachh/agent-guard-mcp/releases/download/v0.2.0/agent-guard-mcp_darwin_arm64",
       "version": "0.2.0",
+      "fileSha256": "c95baf59c5cd88f50e3626aa0bd3961606e8c1021ba76a936f4900b833c21474",
       "transport": {
         "type": "stdio"
       }
