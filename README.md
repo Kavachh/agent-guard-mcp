@@ -73,6 +73,3 @@ safe_delete { "paths": ["src/main/java/App.java"] }
 go build -o agent-guard-mcp . && npm test
 ```
 
-## License
-
-MIT
